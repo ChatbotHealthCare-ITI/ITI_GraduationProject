@@ -2,9 +2,9 @@
 The Chatbot will try to solve or provide an answer to health-related issues or queries that the user is asking for. We are implementing NLP and ML to improve the efficiency of the chatbot.
 
 - What was your motivation?
--bulid fast chatbot interactive with the users
+bulid fast chatbot interactive with the users
 - Why did you build this project?
-   **because the importance of telemedicine 
+   **because  of the importance of telemedicine 
 
 - What did you learn?
    **we learnt how to bulid chatbots from scratch and create a full conversation model with rasa platform 
