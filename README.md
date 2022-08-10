@@ -11,6 +11,7 @@ The Chatbot will try to solve or provide an answer to health-related issues or q
 ## Installation
 - pytorch
 - Rasa (open source platform to bulid full Ai Chatbot conversation)
+- prefer to install Pycharm or Visual Studio 
 -word cloud
 ## Usage
 link for install rasa platfrom  :https://rasa.com/docs/rasa/installation/
@@ -24,7 +25,7 @@ link for install rasa platfrom  :https://rasa.com/docs/rasa/installation/
 * Aya Elsawy : (https://github.com/AyaElsawyElghaysh)
 
 
-##tutorials
+## tutorials
 ***
 * https://www.youtube.com/watch?v=Ap62n_YAVZ8&list=PL75e0qA87dlEjGAc9j9v3a5h1mxI2Z9fi
 * https://www.geeksforgeeks.org/chatbots-using-python-and-rasa/#:~:text=Rasa%20is%20a%20tool%20to,natural%20language%20understanding%20(NLU).
