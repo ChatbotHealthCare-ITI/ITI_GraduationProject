@@ -1,0 +1,157 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - mood_great
+  - mood_unhappy
+  - intent_name
+  - ask_about_disease
+  - hypertension
+  - advice
+  - thank
+  - diabetes
+  - osteoarthristis
+  - arthritis
+  - hyperthyroidism
+  - gerd
+  - psoriasis
+  - malaria
+
+actions:
+  - action_predict_symptom
+  
+entities:
+  - symptom
+slots:
+  symptom:
+    type: list
+    auto_fill: True
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  utter_reply:
+  - text: "Why? What happen?"
+  utter_mood_unhappy:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_mood_great:
+  #- text: "Great, carry on!"
+  - text: "I am happy for you!"
+  utter_goodbye:
+  - text: "Bye"
+#------------------------------------------
+  utter_hypertension:
+    - text: action_predict_symptom
+  utter_diabetes:
+    - text: action_predict_symptom
+  utter_osteoarthristis:
+    - text: action_predict_symptom
+  utter_arthritis:
+    - text: action_predict_symptom
+  utter_hyperthyroidism:
+    - text: action_predict_symptom
+  utter_gerd:
+    - text: action_predict_symptom
+  utter_psoriasis:
+    - text: "You may suffer from psoriasis. "
+  utter_malaria:
+    - text: "You may suffer from malaria. "
+#--------------------------------------------------
+  utter_description_hypertension:
+    - text: "Hypertension (HTN or HT), also known as high blood pressure (HBP), is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. High blood pressure typically does not cause symptoms."
+
+  utter_description_diabetes:
+    - text: "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. "
+  utter_description_osteoarthristis:
+    - text: "Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of your bones wears down over time. "
+  utter_description_arthritis:
+    - text: "Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis. "
+  utter_description_hyperthyroidism:
+    - text: "Hyperthyroidism (overactive thyroid) occurs when your thyroid gland produces too much of the hormone thyroxine. Hyperthyroidism can accelerate your body's metabolism, causing unintentional weight loss and a rapid or irregular heartbeat. "
+  utter_description_gerd:
+    - text: "Gastroesophageal reflux disease, or GERD, is a digestive disorder that affects the lower esophageal sphincter (LES), the ring of muscle between the esophagus and stomach. Many people, including pregnant women, suffer from heartburn or acid indigestion caused by GERD. "
+
+  utter_description_psoriasis:
+    - text: "Psoriasis is a common skin disorder that forms thick, red, bumpy patches covered with silvery scales. They can pop up anywhere, but most appear on the scalp, elbows, knees, and lower back. Psoriasis can't be passed from person to person. It does sometimes happen in members of the same family. "
+
+  utter_description_malaria:
+    - text: "An infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion. Falciparum malaria is the most deadly type. "
+
+#----------------------------------------------------------------------------
+  utter_advice_for_hypertension:
+    - text: " 1) Try meditation
+              2) Try salt baths
+              3) Reduce stress
+              4) Get proper sleep"
+  utter_advice_for_diabetes:
+    - text: " 1) have balanced diet 
+              2) consult doctor 
+              3) exercise "
+  utter_advice_for_osteoarthristis:
+    - text: " 1) consult nearest hospital 
+              2) salt baths 
+              "
+  utter_advice_for_arthritis:
+    - text: " 1) Exercise 
+              2) try acupuncture 
+              "
+  utter_advice_for_hyperthyroidism:
+    - text: " 1) eat healthy 
+              2) take radioactive iodine treatment 
+              "
+  utter_advice_for_gerd:
+    - text: " 1) avoid fatty spicy food 
+              2) avoid lying down after eating 
+              3) maintain healthy weight 
+              "
+
+  utter_advice_for_psoriasis:
+    - text: " 1) wash hands with warm soapy water 
+              2) consult doctor 
+              "
+  utter_advice_for_malaria:
+    - text: " 1) avoid oily food 
+              2) keep mosquitos out 
+              3) Consult nearest hospital  
+              "
+
+#------------------------------------------------------------------------------
+  utter_recommendation_hypertension:
+    - text: "For more information, You can visit 
+            (https://www.vezeeta.com/en/doctor/neurology/egypt)
+            I wish you a speedy recovery :)"
+  utter_recommendation_diabetes:
+    - text: "For more information, You can visit 
+            (https://www.vezeeta.com/en/doctor/diabetes-and-endocrinology/egypt)
+            I wish you a speedy recovery :)"
+  utter_recommendation_osteoarthristis:
+    - text: "For more information, You can visit 
+            (https://www.vezeeta.com/en/doctor/orthopedics/egypt)
+            I wish you a speedy recovery :)"
+  utter_recommendation_arthritis:
+    - text: "For more information, You can visit 
+            (https://www.vezeeta.com/en/doctor/rheumatology/egypt)
+            I wish you a speedy recovery :)"
+  utter_recommendation_hyperthyroidism:
+    - text: "For more information, You can visit 
+            (https://eg.doctoruna.com/en/alexandria/endocrinologist)
+            I wish you a speedy recovery :)"
+  utter_recommendation_gerd:
+    - text: "For more information, You can visit 
+            (https://www.vezeeta.com/en/doctor/adult-gastroenterology-and-endoscopy/egypt)
+            I wish you a speedy recovery :)"
+
+  utter_recommendation_psoriasis:
+    - text: "For more information, You can visit 
+            (https://eg.doctoruna.com/en/alexandria/psoriasis)
+            I wish you a speedy recovery :)"
+
+  utter_recommendation_malaria:
+    - text: "For more information, You can visit 
+            (https://www.mymeditravel.com/malaria-treatment-procedures-in-egypt)
+            I wish you a speedy recovery :)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,405 @@
+version: "3.1"
+nlu: 
+- intent: (vertigo) Paroymsal  Positional Vertigo
+  examples: | 
+    - [headache](symptom)
+    - [loss of balance](symptom)
+    - [nausea](symptom)
+    - [spinning movements](symptom)
+    - [unsteadiness](symptom)
+    - [vomiting](symptom)
+- intent: AIDS
+  examples: | 
+    - [extra marital contacts](symptom)
+    - [high fever](symptom)
+    - [muscle wasting](symptom)
+    - [patches in throat](symptom)
+- intent: Acne
+  examples: | 
+    - [blackheads](symptom)
+    - [pus filled pimples](symptom)
+    - [scurring](symptom)
+    - [skin rash](symptom)
+- intent: Alcoholic hepatitis
+  examples: | 
+    - [abdominal pain](symptom)
+    - [distention of abdomen](symptom)
+    - [fluid overload](symptom)
+    - [history of alcohol consumption](symptom)
+    - [swelling of stomach](symptom)
+    - [vomiting](symptom)
+    - [yellowish skin](symptom)
+- intent: Allergy
+  examples: | 
+    - [chills](symptom)
+    - [continuous sneezing](symptom)
+    - [shivering](symptom)
+    - [watering from eyes](symptom)
+- intent: Arthritis
+  examples: | 
+    - [movement stiffness](symptom)
+    - [muscle weakness](symptom)
+    - [painful walking](symptom)
+    - [stiff neck](symptom)
+    - [swelling joints](symptom)
+- intent: Bronchial Asthma
+  examples: | 
+    - [breathlessness](symptom)
+    - [cough](symptom)
+    - [family history](symptom)
+    - [fatigue](symptom)
+    - [high fever](symptom)
+    - [mucoid sputum](symptom)
+- intent: Cervical spondylosis
+  examples: | 
+    - [back pain](symptom)
+    - [dizziness](symptom)
+    - [loss of balance](symptom)
+    - [neck pain](symptom)
+    - [weakness in limbs](symptom)
+- intent: Chicken pox
+  examples: | 
+    - [fatigue](symptom)
+    - [headache](symptom)
+    - [high fever](symptom)
+    - [itching](symptom)
+    - [lethargy](symptom)
+    - [loss of appetite](symptom)
+    - [malaise](symptom)
+    - [mild fever](symptom)
+    - [red spots over body](symptom)
+    - [skin rash](symptom)
+    - [swelled lymph nodes](symptom)
+- intent: Chronic cholestasis
+  examples: | 
+    - [abdominal pain](symptom)
+    - [itching](symptom)
+    - [loss of appetite](symptom)
+    - [nausea](symptom)
+    - [vomiting](symptom)
+    - [yellowing of eyes](symptom)
+    - [yellowish skin](symptom)
+- intent: Common Cold
+  examples: | 
+    - [chest pain](symptom)
+    - [chills](symptom)
+    - [congestion](symptom)
+    - [continuous sneezing](symptom)
+    - [cough](symptom)
+    - [fatigue](symptom)
+    - [headache](symptom)
+    - [high fever](symptom)
+    - [loss of smell](symptom)
+    - [malaise](symptom)
+    - [muscle pain](symptom)
+    - [phlegm](symptom)
+    - [redness of eyes](symptom)
+    - [runny nose](symptom)
+    - [sinus pressure](symptom)
+    - [swelled lymph nodes](symptom)
+    - [throat irritation](symptom)
+- intent: Dengue
+  examples: | 
+    - [back pain](symptom)
+    - [chills](symptom)
+    - [fatigue](symptom)
+    - [headache](symptom)
+    - [high fever](symptom)
+    - [joint pain](symptom)
+    - [loss of appetite](symptom)
+    - [malaise](symptom)
+    - [muscle pain](symptom)
+    - [nausea](symptom)
+    - [pain behind the eyes](symptom)
+    - [red spots over body](symptom)
+    - [skin rash](symptom)
+    - [vomiting](symptom)
+- intent: Diabetes 
+  examples: | 
+    - [blurred and distorted vision](symptom)
+    - [excessive hunger](symptom)
+    - [fatigue](symptom)
+    - [increased appetite](symptom)
+    - [irregular sugar level](symptom)
+    - [lethargy](symptom)
+    - [obesity](symptom)
+    - [polyuria](symptom)
+    - [restlessness](symptom)
+    - [weight loss](symptom)
+- intent: Dimorphic hemmorhoids(piles)
+  examples: | 
+    - [bloody stool](symptom)
+    - [constipation](symptom)
+    - [irritation in anus](symptom)
+    - [pain during bowel movements](symptom)
+    - [pain in anal region](symptom)
+- intent: Drug Reaction
+  examples: | 
+    - [burning micturition](symptom)
+    - [itching](symptom)
+    - [skin rash](symptom)
+    - [spotting urination](symptom)
+    - [stomach pain](symptom)
+- intent: Fungal infection
+  examples: | 
+    - [dischromic patches](symptom)
+    - [itching](symptom)
+    - [nodal skin eruptions](symptom)
+    - [skin rash](symptom)
+- intent: GERD
+  examples: | 
+    - [acidity](symptom)
+    - [chest pain](symptom)
+    - [cough](symptom)
+    - [stomach pain](symptom)
+    - [ulcers on tongue](symptom)
+    - [vomiting](symptom)
+- intent: Gastroenteritis
+  examples: | 
+    - [dehydration](symptom)
+    - [diarrhoea](symptom)
+    - [sunken eyes](symptom)
+    - [vomiting](symptom)
+- intent: Heart attack
+  examples: | 
+    - [breathlessness](symptom)
+    - [chest pain](symptom)
+    - [sweating](symptom)
+    - [vomiting](symptom)
+- intent: Hepatitis B
+  examples: | 
+    - [abdominal pain](symptom)
+    - [dark urine](symptom)
+    - [fatigue](symptom)
+    - [itching](symptom)
+    - [lethargy](symptom)
+    - [loss of appetite](symptom)
+    - [malaise](symptom)
+    - [receiving blood transfusion](symptom)
+    - [receiving unsterile injections](symptom)
+    - [yellow urine](symptom)
+    - [yellowing of eyes](symptom)
+    - [yellowish skin](symptom)
+- intent: Hepatitis C
+  examples: | 
+    - [family history](symptom)
+    - [fatigue](symptom)
+    - [loss of appetite](symptom)
+    - [nausea](symptom)
+    - [yellowing of eyes](symptom)
+    - [yellowish skin](symptom)
+- intent: Hepatitis D
+  examples: | 
+    - [abdominal pain](symptom)
+    - [dark urine](symptom)
+    - [fatigue](symptom)
+    - [joint pain](symptom)
+    - [loss of appetite](symptom)
+    - [nausea](symptom)
+    - [vomiting](symptom)
+    - [yellowing of eyes](symptom)
+    - [yellowish skin](symptom)
+- intent: Hepatitis E
+  examples: | 
+    - [abdominal pain](symptom)
+    - [acute liver failure](symptom)
+    - [coma](symptom)
+    - [dark urine](symptom)
+    - [fatigue](symptom)
+    - [high fever](symptom)
+    - [joint pain](symptom)
+    - [loss of appetite](symptom)
+    - [nausea](symptom)
+    - [stomach bleeding](symptom)
+    - [vomiting](symptom)
+    - [yellowing of eyes](symptom)
+    - [yellowish skin](symptom)
+- intent: Hypertension 
+  examples: | 
+    - [chest pain](symptom)
+    - [dizziness](symptom)
+    - [headache](symptom)
+    - [lack of concentration](symptom)
+    - [loss of balance](symptom)
+- intent: Hyperthyroidism
+  examples: | 
+    - [abnormal menstruation](symptom)
+    - [diarrhoea](symptom)
+    - [excessive hunger](symptom)
+    - [fast heart rate](symptom)
+    - [fatigue](symptom)
+    - [irritability](symptom)
+    - [mood swings](symptom)
+    - [muscle weakness](symptom)
+    - [restlessness](symptom)
+    - [sweating](symptom)
+    - [weight loss](symptom)
+- intent: Hypoglycemia
+  examples: | 
+    - [anxiety](symptom)
+    - [blurred and distorted vision](symptom)
+    - [drying and tingling lips](symptom)
+    - [excessive hunger](symptom)
+    - [fatigue](symptom)
+    - [headache](symptom)
+    - [irritability](symptom)
+    - [nausea](symptom)
+    - [palpitations](symptom)
+    - [slurred speech](symptom)
+    - [sweating](symptom)
+    - [vomiting](symptom)
+- intent: Hypothyroidism
+  examples: | 
+    - [abnormal menstruation](symptom)
+    - [brittle nails](symptom)
+    - [cold hands and feets](symptom)
+    - [depression](symptom)
+    - [dizziness](symptom)
+    - [enlarged thyroid](symptom)
+    - [fatigue](symptom)
+    - [irritability](symptom)
+    - [lethargy](symptom)
+    - [mood swings](symptom)
+    - [puffy face and eyes](symptom)
+    - [swollen extremeties](symptom)
+    - [weight gain](symptom)
+- intent: Impetigo
+  examples: | 
+    - [blister](symptom)
+    - [high fever](symptom)
+    - [red sore around nose](symptom)
+    - [skin rash](symptom)
+    - [yellow crust ooze](symptom)
+- intent: Jaundice
+  examples: | 
+    - [abdominal pain](symptom)
+    - [dark urine](symptom)
+    - [fatigue](symptom)
+    - [high fever](symptom)
+    - [itching](symptom)
+    - [vomiting](symptom)
+    - [weight loss](symptom)
+    - [yellowish skin](symptom)
+- intent: Malaria
+  examples: | 
+    - [chills](symptom)
+    - [diarrhoea](symptom)
+    - [headache](symptom)
+    - [high fever](symptom)
+    - [muscle pain](symptom)
+    - [nausea](symptom)
+    - [sweating](symptom)
+    - [vomiting](symptom)
+- intent: Migraine
+  examples: | 
+    - [acidity](symptom)
+    - [blurred and distorted vision](symptom)
+    - [depression](symptom)
+    - [excessive hunger](symptom)
+    - [headache](symptom)
+    - [indigestion](symptom)
+    - [irritability](symptom)
+    - [stiff neck](symptom)
+    - [visual disturbances](symptom)
+- intent: Osteoarthristis
+  examples: | 
+    - [hip joint pain](symptom)
+    - [joint pain](symptom)
+    - [knee pain](symptom)
+    - [neck pain](symptom)
+    - [painful walking](symptom)
+    - [swelling joints](symptom)
+- intent: Paralysis (brain hemorrhage)
+  examples: | 
+    - [altered sensorium](symptom)
+    - [headache](symptom)
+    - [vomiting](symptom)
+    - [weakness of one body side](symptom)
+- intent: Peptic ulcer diseae
+  examples: | 
+    - [abdominal pain](symptom)
+    - [indigestion](symptom)
+    - [internal itching](symptom)
+    - [loss of appetite](symptom)
+    - [passage of gases](symptom)
+    - [vomiting](symptom)
+- intent: Pneumonia
+  examples: | 
+    - [breathlessness](symptom)
+    - [chest pain](symptom)
+    - [chills](symptom)
+    - [cough](symptom)
+    - [fast heart rate](symptom)
+    - [fatigue](symptom)
+    - [high fever](symptom)
+    - [malaise](symptom)
+    - [phlegm](symptom)
+    - [rusty sputum](symptom)
+    - [sweating](symptom)
+- intent: Psoriasis
+  examples: | 
+    - [inflammatory nails](symptom)
+    - [joint pain](symptom)
+    - [silver like dusting](symptom)
+    - [skin peeling](symptom)
+    - [skin rash](symptom)
+    - [small dents in nails](symptom)
+- intent: Tuberculosis
+  examples: | 
+    - [blood in sputum](symptom)
+    - [breathlessness](symptom)
+    - [chest pain](symptom)
+    - [chills](symptom)
+    - [cough](symptom)
+    - [fatigue](symptom)
+    - [high fever](symptom)
+    - [loss of appetite](symptom)
+    - [malaise](symptom)
+    - [mild fever](symptom)
+    - [phlegm](symptom)
+    - [sweating](symptom)
+    - [swelled lymph nodes](symptom)
+    - [vomiting](symptom)
+    - [weight loss](symptom)
+    - [yellowing of eyes](symptom)
+- intent: Typhoid
+  examples: | 
+    - [abdominal pain](symptom)
+    - [belly pain](symptom)
+    - [chills](symptom)
+    - [constipation](symptom)
+    - [diarrhoea](symptom)
+    - [fatigue](symptom)
+    - [headache](symptom)
+    - [high fever](symptom)
+    - [nausea](symptom)
+    - [toxic look (typhos)](symptom)
+    - [vomiting](symptom)
+- intent: Urinary tract infection
+  examples: | 
+    - [bladder discomfort](symptom)
+    - [burning micturition](symptom)
+    - [continuous feel of urine](symptom)
+    - [foul smell ofurine](symptom)
+- intent: Varicose veins
+  examples: | 
+    - [bruising](symptom)
+    - [cramps](symptom)
+    - [fatigue](symptom)
+    - [obesity](symptom)
+    - [prominent veins on calf](symptom)
+    - [swollen blood vessels](symptom)
+    - [swollen legs](symptom)
+- intent: hepatitis A
+  examples: | 
+    - [abdominal pain](symptom)
+    - [dark urine](symptom)
+    - [diarrhoea](symptom)
+    - [joint pain](symptom)
+    - [loss of appetite](symptom)
+    - [mild fever](symptom)
+    - [muscle pain](symptom)
+    - [nausea](symptom)
+    - [vomiting](symptom)
+    - [yellowing of eyes](symptom)
+    - [yellowish skin](symptom)
