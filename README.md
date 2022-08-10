@@ -1,6 +1,7 @@
 ## Description
 The Chatbot will try to solve or provide an answer to health-related issues or queries that the user is asking for. We are implementing NLP and ML to improve the efficiency of the chatbot.
 
+
 - What was your motivation?
    * bulid fast chatbot interactive with the users
 - Why did you build this project?
@@ -10,6 +11,7 @@ The Chatbot will try to solve or provide an answer to health-related issues or q
    
 ## Files 
  * Rasa File that are configured in out project
+  *we bulid a demo for a few diseases on rasa due to the limitation of our resourses
     * config.yml 
     * nlu.yml
     * domain_updated.yml
