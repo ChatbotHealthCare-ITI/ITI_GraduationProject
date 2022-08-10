@@ -7,6 +7,18 @@ The Chatbot will try to solve or provide an answer to health-related issues or q
    * because  of the importance of telemedicine 
 - What did you learn?
    * we learnt how to bulid chatbots from scratch and create a full conversation model with rasa platform 
+   
+## Files 
+ * Rasa File that are configured in out project
+    * config.yml 
+    * nlu.yml
+    * domain_updated.yml
+    * credentials.yml
+   
+ * Notebooks files
+    * nlu_generator (for generate intents of symptoms automatically)
+    * graduation_project (main notebook for bulid simple chatbot by using pytorch)
+ 
 
 ## Installation
 - pytorch
