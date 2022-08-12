@@ -49,8 +49,8 @@ link for install rasa platfrom  :https://rasa.com/docs/rasa/installation/
 ***
 
 * bulid simple chatbot for detect symptoms for the user intents
-* bulid machineLearning model to predict diseases from symptoms
-* use advanced paltform like rasa to built full conversation chatbot 
+* bulid machineLearning model to predict diseases from symptoms getting accuracy 84%
+ * use advanced paltform like rasa to built full conversation chatbot 
 
 
 
